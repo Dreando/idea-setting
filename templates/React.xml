@@ -3,4 +3,11 @@
     <variable name="componentName" expression="" defaultValue="&quot;MyComponent&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="redc" value="export default function (state, action) {&#10;    switch(action.type) {&#10;        $END$&#10;    }&#10;}" description="Creates a React component class with PropTypes and ES6 module system" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
