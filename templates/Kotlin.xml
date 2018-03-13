@@ -1,0 +1,18 @@
+<templateSet group="Kotlin">
+  <template name="docc" value="/**&#10; * $END$&#10; *&#10; * @author kozam&#10; */" description="Documentation for class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="docce" value="/**&#10; * $END$&#10; */" description="Documentation for class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="docf" value="/**&#10; * $END$&#10; * @param &#10; */" description="Documentation for class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ktest" value="@Test&#10;fun `$END$`() {&#10;}" description="Kotlin test template" toReformat="false" toShortenFQNames="true" />
+</templateSet>
