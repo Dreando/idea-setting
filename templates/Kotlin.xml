@@ -1,0 +1,7 @@
+<templateSet group="Kotlin">
+  <template name="ktest" value="@Test&#10;fun `$END$`() {&#10;&#10;}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
