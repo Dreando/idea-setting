@@ -1,6 +1,15 @@
 <application>
   <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Kotlin">
+        <added pattern="java.time.LocalDate.plusDays(daysToAdd)" />
+        <added pattern="java.time.LocalDateTime.minus(amountToSubtract,unit)" />
+        <added pattern="com.tomtom.timelineart.model.AdvancedTimelineEvent(originalTimelineEvent,timeFromLastUserEvent)" />
+      </blacklist>
+    </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
     <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
+    <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
+    <option id="SHOW_LAMBDA_RETURN_EXPRESSION" value="false" />
   </component>
 </application>
