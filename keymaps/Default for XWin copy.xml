@@ -1,0 +1,10 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="FileChooser.NewFile">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+</keymap>
