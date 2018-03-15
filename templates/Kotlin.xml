@@ -1,0 +1,7 @@
+<templateSet group="Kotlin">
+  <template name="mrepo" value="&#10;import org.springframework.data.mongodb.core.MongoTemplate&#10;import org.springframework.data.mongodb.core.find&#10;import org.springframework.data.mongodb.core.query.Criteria.where&#10;import org.springframework.data.mongodb.core.query.Query.query&#10;import org.springframework.stereotype.Repository&#10;&#10;@Repository&#10;class $END$(private val mongoTemplate: MongoTemplate) {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
