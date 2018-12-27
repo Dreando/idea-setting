@@ -329,4 +329,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rccpts" value="import * as React from 'react;&#10;&#10;export interface Props {&#10;}&#10;&#10;export interface State {&#10;}&#10;&#10;class $componentName$ extends React.Component&lt;Props, State&gt; {&#10;    public render() {&#10;        return (&#10;            &lt;div&gt;&#10;                $END$&#10;            &lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;export default $componentName$;" description="Creates class component with TypeScript" toReformat="false" toShortenFQNames="true">
+    <variable name="componentName" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
