@@ -9,5 +9,6 @@
     <entry key="bigger.font.in.project.view" value="true" />
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
     <entry key="ide.tooltip.initialDelay" value="748" />
+    <entry key="git.explicit.commit.renames.prohibit.multiple.calls" value="false" />
   </component>
 </application>
