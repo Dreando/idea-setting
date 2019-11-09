@@ -3,5 +3,6 @@
     <ignoreAction name="Kotlin/Remove explicit type specification" />
     <ignoreAction name="Kotlin/Convert property to function" />
     <ignoreAction name="Language Injection/Edit Injected Fragment" />
+    <ignoreAction name="XML/Insert namespace prefix" />
   </component>
 </application>
